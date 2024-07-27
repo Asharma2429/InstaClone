@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.upload {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.post .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post .actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
